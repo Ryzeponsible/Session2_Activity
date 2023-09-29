@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewpower" content="width=device-width, initial-scale" />
+        <title>Session 2</title>
+    </head>
+    <body>
+        <h1>Session 2_Activity</h1>
+
+        <p>
+            Marion <abbr title="This is my name">Mimiko</abbr> Paril.
+        </p>
+
+        <section>
+            <h2>Attributes for &lt;td&gt; and &lt;th&gt</h2>
+            <table style="border: 1px solid black">
+                <caption>
+                    Random Names
+                </caption>
+                <thead>
+                    <tr style="border: 1px solid black">
+                        <th style="border: 1px solid black">Name</th>
+                        <th style="border: 1px solid black">Role</th>
+                        <th style="border: 1px solid black">Age</th>
+                    </tr>
+                </thead>
+                <tbody style="border: 1px solid black">
+                    <tr style="border: 1px solid black"></tr>
+                    <td style="border: 1px solid black">John Cena</td>
+                    <td style="border: 1px solid black" rowspan="2">Invisible Dude</td>
+                    <td style="border: 1px solid black">70</td>
+
+                    <tr style="border: 1px solid black"></tr>
+                    <td style="border: 1px solid black">Dwayne Johnson</td>
+                    <td style="border: 1px solid black" rowspan="2">Bato</td>
+                    <td style="border: 1px solid black">69</td>
+
+                    <tr style="border: 1px solid black"></tr>
+                    <td style="border: 1px solid black">Wally Bayola</td>
+                    <td style="border: 1px solid black" rowspan="2">Parang si the rock pero pinoy</td>
+                    <td style="border: 1px solid black">70</td>
+
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <p><strong>Programming Language</strong></p>
+
+            <ol type="I" start="5" reversed>
+                <li>Java</li>
+                <li>Python</li>
+                <li>C++</li>
+                <li>C#</li>
+                <li>JavaaaScript</li>
+            </ol>
+        </section>
+        
+        <section>
+            <h2>Image</h2>
+            <figure>
+            
+
+            <img src="https://img.favpng.com/25/5/9/english-alphabet-english-language-smiley-emoticon-png-favpng-K0s73uTKPt76K4C6Udvv70WfY.jpg"
+            height="300"
+            width="400"
+            alt="Rizz emoji">
+            <figcaption>
+                Rizz <a href="https://img.favpng.com/25/5/9/english-alphabet-english-language-smiley-emoticon-png-favpng-K0s73uTKPt76K4C6Udvv70WfY.jpg">Emoji</a>
+            </figcaption>
+
+            </figure>
+
+        </section>
+        <!--1.-->
+        <h1>Input your Name</h1>
+    
+        <div>
+            <p>First Name: <input type="text" placeholder="Input First Name"></p>
+            <p>Last Name: <input type="text" placeholder="Input Last Name"></p>
+            <button>Submit</button>
+        </div>
+
+        <!--2.-->
+        <h1>Example element for &lt;iframe&gt;</h1>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/KrLj6nc516A?si=jkprwFZDXFaeeSkh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        <br />
+
+        <!--3.-->
+        <h1>Using &lt;small&gt; attribute</h1>
+        <p>Normal na text na kung saan ay medyo malaki. <small>Tapos dito ay lumiit.</small></p>
+
+        <br>
+
+        <!--4.-->
+        <h1>&lt;option&gt; element example</h1>
+
+    <label for="fruitSelect">Select a Age: </label>
+    <select id="fruitSelect">
+        <option value="69">69</option>
+        <option value="420">420</option>
+        <option value="25">25</option>
+        <option value="911">911</option>
+    </select>
+
+    <br />
+    <br />
+
+    <!--5.-->
+    <h1>&lt;details&gt; element example</h1>
+    <details open>
+        <summary>This is a just a test</summary>
+        <p> Hello My name is Marion Mimiko Paril. </p>
+     </details>
+
+    <!--6.-->
+    <h1>&lt;aside&gt; element example</h1>
+    <aside>
+        <h3>Example links</h3>
+        <ul>
+            <li><a href="/DLSU-D">Latest News</a></li>
+            <li><a href="/Facebook">Profile Stalking</a></li>
+        </ul>
+    </aside>
+
+    <!--7.-->
+    <h1>&lt;time&gt; element example</h1>
+    <p>This is a test for time element <time datetime="2023-10-15T18:00">6:00 PM on October 15, 2023</time>.</p>
+
+    <br />
+    
+    <!--8.-->
+    <h1>&lt;Progress&gt; and &lt;meter&gt; element example</h1>
+    <p>This is for progress bar <progress value="70" max="100">70%</progress></p>
+
+    <!--9.-->
+    <p>this is meter bar example <meter value="4" min="0" max="5">4 out of 5</meter></p>
+    
+    <br />
+
+    <!--10.-->
+    <h1>&lt;output&gt; element example</h1>
+    <form oninput="result.value = parseInt(a.value) + parseInt(b.value)">
+        <input type="number" id="a" name="a" value="10">
+        + <input type="number" id="b" name="b" value="5">
+        = <output name="result" for="a b"></output>
+    </form>
+    
+
+
+    </body>
+</html>
